@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesion</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<header>
+    <nav class="nav_main">
+        <a href="/index.html">
+            <div class="left_menu">
+                <img src="/assets/Images/Logo.png" alt="Logo" class="nav_brand">
+            </div>
+        </a>
+        <div class="center_menu">
+            <ul class="nav_menu">
+                <li>
+                    <a href="/index.html"  class="item_menu">Inicio</a>
+                </li>
+                <li>
+                    <a href="/pedido.html" class="item_menu">Haga su pedido</a>
+                </li>
+                            
+            </ul>
+
+        </div>
+        
+        <div class="right_menu">
+            <ul class="nav_menu_right">
+        
+                <a href="/login.html" class="item_menu">
+                    <i class= "fa-solid fa-arrow-right-to-bracket"></i>
+                    Ingresar
+                </a>
+                
+            </ul>
+        </div>
+        
+    </nav>
+</header>
+<body>
+    
+    
+        <div>
+            <h1 class="titulo-pagina">Iniciar Sesión</h1>
+        </div>
+    
+    
+    <div id="container">
+        <form class="form-login">
+            <!-- Username -->
+            <div>
+                <label for="name">Usuario:</label>
+                <input type="name" class="field">
+            </div>
+            <div>
+            <!-- Password -->
+               <label for="username">Contraseña:</label>
+            
+               <input type="password" class="field">
+            </div>
+            <p><a href="#">¡Olvidaste tu contraseña?</a>
+                <p><a href="/registrarse.html">No tienes cuenta? Regìstrese aqui!</a>
+            <div id="lower">
+                <input type="checkbox"><label class="check" for="checkbox">Mantenerse conectado</label>
+                <!-- Submit Button -->
+                <input type="button" value="Ingresar" class="btn">
+            </div>
+        </form>       
+    </div>
+    
+</body>
+</html>
