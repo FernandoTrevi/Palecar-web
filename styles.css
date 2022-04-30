@@ -2,9 +2,12 @@ body {
     font-size: 25px;
     background: url(/assets/Images/backgraund.jpg) no-repeat center;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;
+    color:darkred;
 }
-
+a{
+    text-decoration: none;
+    color:blue;
+}
 .nav_main {
     
     
@@ -15,22 +18,16 @@ body {
 
     font-size: 20px;
     font-weight: bold;
+    color: darkred;
    
     background-color: rgba(255, 255, 255, 0.5);
-    text-decoration: none;
+    
 
 }
 .nav_brand {
     width: 150px;
  
 }
-
-.nav_main a:hover{
-    color: red;
-    font-weight:900;
-}
-
-
 .nav_menu_right{
    padding: 0px 20px;
 }
@@ -70,9 +67,7 @@ body {
     color: red;
     font-size: 30px;
 }
-.contactos p{
-    color: red;
-}
+
 .btn {
     border-radius: 3px;
     padding: 20px 25px;
@@ -84,20 +79,21 @@ body {
     width: 460px;
 }
 .btn-pedido{
-    width: 250px;
-    height: 40px;
+    width: 350px;
+    height: 50px;
     display: block;
     margin: auto;
+    margin-top: 30px;
 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
-    font-size: 28px;
+    font-size: 38px;
     text-align:center;
 
     border-radius: 10px;
     box-shadow: 5px 5px 5px;   
-    background: red;
-    color: black;   
+    background: black;
+    color: darkred;   
     border: 1px solid black;
     text-decoration: none;
     cursor: pointer;
@@ -147,9 +143,7 @@ body {
     font-size: 40px;
 }
 
-.btn-pedido:hover{
-    border: 2px solid black;
-}
+
 
 
 
@@ -164,9 +158,8 @@ body {
     
     
 }
-.promociones a:hover{
-    color: red;
-}
+
+
 .titulo {
     border-top: black 5px solid;
     text-align: center;
@@ -190,7 +183,7 @@ body {
     
    
 }
-.oferta h2{
+h2{
     text-decoration: underline;
 }
 
@@ -215,20 +208,25 @@ body {
     text-align: center;
 
     border:  brown 5px solid;
-    border-radius: 10px;
+    border-radius: 100px;
     box-shadow: 5px 5px 5px;   
     background-color: rgba(255, 255, 255, 0.5);
    
 }
 
 .funcionamiento  div{
-    height: 371px;
+    height: 300px;
     margin: 4px;
     display: inline-table;
-    font-size: 40px;
-    text-decoration: none;
+    font-size: 30px;
+    
+}
+.funcionamiento i{
+    margin-top: 30px;
+    color: darkred;
+    font-size: 100px;
 }
 
-.funcionamiento a:hover{
+ a:hover{
     color: red;
 }
