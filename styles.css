@@ -153,17 +153,12 @@ a{
     margin: 4px;
     display: inline-table;
     font-size: 20px;
-    
-    
-    
-    
 }
 
 
 .titulo {
     border-top: black 5px solid;
     text-align: center;
-
 }
 
 .oferta {
@@ -178,13 +173,11 @@ a{
     box-shadow: 5px 5px 5px;   
     background-color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-   
-    
-    
-   
 }
+
 h2{
     text-decoration: underline;
+    text-align: center;
 }
 
 
@@ -230,3 +223,67 @@ h2{
  a:hover{
     color: red;
 }
+.secciones{
+    display: flex;
+    border:  brown 5px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    width: 99%;
+
+    margin: 10px;
+
+    text-align: center;
+    font-size: 15px;
+}
+.sub-compra{
+    
+    font-size: 28px ;
+    margin: 25px;
+    
+}
+.btn-ok{
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    margin: 5px ;
+}
+.form-compra div{
+    margin: 5px;    
+}
+.compra{
+    display: flex;
+   
+}
+.tabla{
+    border:  brown 5px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    width: 90%;
+
+    margin: 10px 30px ;
+  
+
+    text-align: center;
+    font-size: 15px;
+}
+.detalle{
+    background-color: bisque;
+    width: 99%;
+
+}
+.detalle td{
+    border: brown 2px solid;
+}
+.detalle caption{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+
+    
+}
+
+    

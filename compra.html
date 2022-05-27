@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envíanos tu pedido</title>
+    <link rel="shortcut icon" href="/assets/Images/Logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles.css">
+    <!--FONT AWESOME (pagina de iconos)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header id="top">
+        <nav class="nav_main">
+            <a href="/index.html">
+                <div class="left_menu">
+                    <img src="/assets/Images/Logo.png" alt="Logo" class="nav_brand">
+                </div>
+            </a>
+            <div class="center_menu">
+                <ul class="nav_menu">
+                    <li>
+                        <a href="/funcionamiento.html"  class="item_menu">Cómo Funciona</a>
+                    </li>
+                    <li>
+                        <a href="/pedido.html" class="item_menu">Haga su pedido</a>
+                    </li>
+                                
+                </ul>
+
+            </div>
+            
+            <div class="right_menu">
+                <ul class="nav_menu_right">
+            
+                    <a href="/login.html" class="item_menu">
+                        <i class= "fa-solid fa-arrow-right-to-bracket"></i>
+                        Ingresar
+                    </a>
+                    
+                </ul>
+            </div>
+            
+        </nav>
+    </header>
+    <main>
+        <div class="compra">
+            <div>
+                <section class="secciones" id="ternera">
+                    <h2 class="sub-compra"><span>TERNERA</span></h2>
+                    <form class="form-compra" id="form1">
+                        <div class="div-cortes">
+                        <label for="select-tern">Elija el corte:</label>
+                        <select name="tern" id="select-tern">
+                           
+                           
+                        </select>
+                        </div>
+                        <div>
+                            <label for="cantidad">Cantidad en kg:</label>
+                            <input type="number" name="kg" id="cantidadTern">
+                        </div>
+                        <div>
+                            <input type="submit" value="OK" class="btn-ok" id="ok-tern">
+                        </div>
+                    </form>
+                </section>
+                <section class="secciones" id="cerdo">
+                    <h2 class="sub-compra"><span>CERDO</span></h2>
+                    <form class="form-compra">
+                        <div>
+                            <label for="select-cerd">Elija el corte:</label>
+                            <select name="cerd" id="select-cerd">
+                                
+                            </select>
+                        </div>
+                        <div>
+                            <label for="cantidad">Cantidad en kg:</label>
+                            <input type="number" name="kg" id="cantidad-cer">
+                        </div>
+                        <div>
+                            <input type="submit" value="OK" class="btn-ok" id="ok-cer">
+                        </div>
+                    </form>
+                </section>
+                <section class="secciones" id="embutidos">
+                    <h2 class="sub-compra"><span>EMBUTIDOS</span></h2>
+                    <form class="form-compra">
+                        <div>
+                            <label for="select-emb">Elija el embutido:</label>
+                            <select name="embut" id="select-emb">
+                                                           
+                            </select>
+
+                        </div>
+                        <div>
+                            <label for="cantidad">Cantidad en kg:</label>
+                            <input type="number" name="kg" id="cantidad-emb">
+                        </div>
+                        <div>
+                            <input type="submit" value="OK" class="btn-ok" id="ok-emb">
+                        </div>
+                    </form>
+
+                </section>
+                <section class="secciones" id="bolsones">
+                    <h2 class="sub-compra"><span>BOLSONES</span></h2>
+                    <form class="form-compra">
+                        <div>
+                            <label for="select-bol">Elija el Bolsón:</label>
+                            <select name="bolson" id="select-bol">
+                                                          
+                            </select>
+                        </div>
+                        <div>
+                            <label for="cantidad-bol">Cantidad:</label>
+                            <input type="number" name="kg" id="cantidad-bol">
+                        </div>
+                        <div>
+                            <input type="submit" value="OK"  class="btn-ok" id="ok-bol">
+                        </div>
+
+                    </form>
+                </section>
+            </div>
+            <div class="tabla">
+                
+                <table class="detalle" id="detalle">
+                    <caption>DETALLE DE LA COMPRA</caption>
+                    <thead>
+                        <tr>
+                            <td>  X  </td>
+                            <td>Cantidad</td>
+                            <td>Producto</td>
+                            <td>Precio Unitario</td>
+                            <td>Subtotal</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+                <h3>El total de la compra es de $: <span id="total">0</span></h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="pie">
+            <div class="titulo">
+               <h1>LOS ESPERAMOS</h1>
+             </div>
+             <div class="contactos">
+                 <div>
+                    <h2 class="subtitulo">Nuestro local</h2>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Belgrano 365 <br>
+                        Luque <br>
+                        Pcia de Córdoba
+                    
+                    </p>
+                 </div>
+                 <div>
+                     <h2 class="subtitulo">Contáctanos</h2>
+                     <p>
+                        <a href="https://www.instagram.com/palecar.luque/?hl=es">
+                            <i class="fa-brands fa-instagram"></i>
+                            @palecar.luque
+                        </a><br>
+                        <i class="fa-brands fa-whatsapp"></i>
+                        3573-514309
+                    </p>
+
+                 </div>
+                 <div>
+                     <h2 class="subtitulo">Horarios</h2>
+                     <p>
+                         Lunes a sábados <br>
+                         Mañana: De 8:30 a 13:00 <br>
+                         Tarde: De !7:00 a 20:30
+                     </p>
+                 </div>
+             </div>
+        </div>
+    </footer>    
+    <script src="main.js"></script>
+</body>
